@@ -14,7 +14,8 @@ void f3() {
 
     cout << "Next " << n << " characters: ";
     for (int i = 1; i <= n; i++) {
-        cout << char(ch + i) << " ";
+        if(ch>='a' && ch<='z') cout<<(char(((ch+i)%26)+'a'))<<" ";
+        else cout<<(char(((ch+i)%26)+'A'))<<" ";
     }
     cout << endl;
 }

@@ -7,6 +7,7 @@ void f1(){
     cout<<"Hello world";
 }
 
+
 int main(){
 
     f1();
